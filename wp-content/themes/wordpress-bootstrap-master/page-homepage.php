@@ -73,15 +73,17 @@ Template Name: Homepage
 					<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 						
 						<section class="row-fluid post_content">
-						
-							<div class="span8">
+							<div class="span3">
+								<img src="/wp-content/themes/wordpress-bootstrap-master/library/images/welcome-image.png">
+							</div>
+							<div class="span9">
 								<h1><?php the_title(); ?></h1>
 						
 								<?php the_content(); ?>
 								
 							</div>
 							
-							<?php get_sidebar('sidebar2'); // sidebar 2 ?>
+							<?php //get_sidebar('sidebar2'); // sidebar 2 ?>
 													
 						</section> <!-- end article header -->
 						
