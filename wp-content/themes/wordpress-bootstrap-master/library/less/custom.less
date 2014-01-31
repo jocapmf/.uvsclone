@@ -14,10 +14,12 @@ body {
         text-transform: uppercase;
     }
 }
+
 .socials {
+	margin-bottom: 0;
 
 	a {
-		display: block;
+		display: inline-block;
 		height: 37px;
 		width: 37px;
 
@@ -39,4 +41,33 @@ body {
 			background-position: bottom;
 		}
 	}
+}
+
+.content-wrapper{
+	background: url(../images/content-wrapper-shadow.png) bottom left repeat-x;
+}
+.footer{
+	background: url(../images/footer-bg.jpg);
+
+	p{
+		color: @white;
+
+		&.attribution{
+			font-family: 'Niconne', cursive;
+			font-size: 32px;
+			color: #e4c38c;
+			float: left;
+			line-height: normal;
+			margin: 0;
+		}
+	}
+
+	#inner-footer{
+		background: url(../images/footer-shadow.png) 50% 0 repeat-x;
+
+		.container{
+			padding: 33px 0 29px;
+		}
+	}
+	
 }

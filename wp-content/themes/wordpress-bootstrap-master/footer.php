@@ -1,29 +1,34 @@
 			</div> <!-- end #container -->
-			<footer class="container" role="contentinfo">
-				<div class="row-fluid">
-					<div id="inner-footer span12" class="clearfix span12">
-			          <hr />
-			          <div id="widget-footer" class="clearfix row-fluid">
-			            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
-			            <?php endif; ?>
-			            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
-			            <?php endif; ?>
-			            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
-			            <?php endif; ?>
-			          </div>
+			</div>
+			<footer class="footer" role="contentinfo">
+				<div id="inner-footer">
+					<div class="container">
+						<div class="row-fluid">
+							<div class="span12" class="clearfix span12">
+					          <div id="widget-footer" class="clearfix row-fluid">
+					            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer1') ) : ?>
+					            <?php endif; ?>
+					            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer2') ) : ?>
+					            <?php endif; ?>
+					            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer3') ) : ?>
+					            <?php endif; ?>
+					          </div>
+								
+								<nav class="clearfix">
+									<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
+								</nav>
+
+								<p class="attribution"><?php bloginfo('name'); ?></p>
+								<p class="pull-right socials">
+									<a class="twitter" href="#">&nbsp;</a>
+									<a class="facebook" href="#">&nbsp;</a>
+								</p>
 						
-						<nav class="clearfix">
-							<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
-						</nav>
-						
-						<p class="pull-right socials">
-							<a class="twitter" href="#">&nbsp;</a>
-							<a class="facebook" href="#">&nbsp;</a>
-						</p>
-				
-						<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
-					
-					</div> <!-- end #inner-footer -->
+								
+							
+							</div> <!-- end #inner-footer -->
+						</div>
+					</div>
 				</div>
 			</footer> <!-- end footer -->
 				

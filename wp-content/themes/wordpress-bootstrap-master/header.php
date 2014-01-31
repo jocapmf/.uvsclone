@@ -25,7 +25,7 @@
 		<![endif]-->
 		
   		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-
+  		<link href='http://fonts.googleapis.com/css?family=Niconne&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<!-- wordpress head functions -->
 		<?php wp_head(); ?>
 		<!-- end of wordpress head -->
@@ -91,4 +91,5 @@
 		
 		</header> <!-- end header -->
 		
-		<div class="container-fluid wrapper">
+		<div class="content-wrapper">
+		<div class="container wrapper">
