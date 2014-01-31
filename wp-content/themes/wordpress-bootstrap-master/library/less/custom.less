@@ -1,19 +1,42 @@
-
-body{
+body {
     background: url(../images/bg-body.gif) top left repeat;
 }
-
-.rhino-pause{
+.rhino-pause {
     display: none;
 }
-.header{
+.header {
     background: url(../images/header2.jpg);
     height: 385px;
 
-    .nav li a{ 
+    .nav li a { 
         font-family: 'Oswald', sans-serif;
         font-weight: 400;
         text-transform: uppercase;
     }
 }
+.socials {
 
+	a {
+		display: block;
+		height: 37px;
+		width: 37px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	a.twitter, {
+		background: url(../images/twitter.png);
+
+		&:hover {
+			background-position: bottom;
+		}
+	}
+	a.facebook {
+		background: url(../images/facebook.png);
+
+		&:hover {
+			background-position: bottom;
+		}
+	}
+}
