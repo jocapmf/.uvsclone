@@ -75,21 +75,24 @@
 						</div> <!-- end .nav-container -->
 					</div> <!-- end .navbar-inner -->
 				</div> <!-- end .navbar -->
+
+				<div class="row-fluid">
+					<div class="span12">
+						<div class="container">
+							<ul id="carousel" style="height: 321px; margin: 0;">
+								<li><img src="/wp-content/themes/wordpress-bootstrap-master/library/images/slide1.png" alt="" /></li>
+								<li><img src="/wp-content/themes/wordpress-bootstrap-master/library/images/slide3.png" alt="" /></li>
+							</ul>
+						</div>
+					</div><!-- /span -->
+				</div><!-- /row -->
 			
 			</div> <!-- end #inner-header -->
 
-			<div class="row-fluid">
-				<div class="span12">
-					<div class="container" style="margin-top: -55px;">
-						<ul id="carousel" style="height: 310px; margin: 0;">
-							<li><img src="/wp-content/themes/wordpress-bootstrap-master/library/images/slide1.png" alt="" /></li>
-							<li><img src="/wp-content/themes/wordpress-bootstrap-master/library/images/slide3.png" alt="" /></li>
-						</ul>
-					</div>
-				</div><!-- /span -->
-			</div><!-- /row -->
+			
 		
 		</header> <!-- end header -->
 		
 		<div class="content-wrapper">
-		<div class="container wrapper">
+			<div class="inner-content-wrapper">
+				<div class="container wrapper">

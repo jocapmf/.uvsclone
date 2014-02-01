@@ -1,5 +1,6 @@
-			</div> <!-- end #container -->
-			</div>
+					</div> <!-- end content-wrapper (header.php line 96) -->
+				</div><!-- end inner-content-wrapper (header.php line 97) -->
+			</div><!-- end container wrapper (header.php line 98) -->
 			<footer class="footer" role="contentinfo">
 				<div id="inner-footer">
 					<div class="container">

@@ -5225,43 +5225,24 @@ a.badge:focus {
 body {
   background: url(../images/bg-body.gif) top left repeat;
 }
-.rhino-pause {
-  display: none;
-}
 .header {
   background: url(../images/header2.jpg);
-  height: 385px;
 }
 .header .nav li a {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
-.socials {
-  margin-bottom: 0;
-}
-.socials a {
-  display: inline-block;
-  height: 37px;
-  width: 37px;
-}
-.socials a:hover {
-  text-decoration: none;
-}
-.socials a.twitter {
-  background: url(../images/twitter.png);
-}
-.socials a.twitter:hover {
-  background-position: bottom;
-}
-.socials a.facebook {
-  background: url(../images/facebook.png);
-}
-.socials a.facebook:hover {
-  background-position: bottom;
+.header .rhino-pause,
+.header .rhino-play {
+  display: none!important;
 }
 .content-wrapper {
   background: url(../images/content-wrapper-shadow.png) bottom left repeat-x;
+  margin-top: -138px;
+}
+.content-wrapper .inner-content-wrapper {
+  background: url(../images/shadow-header.png) top left repeat-x;
 }
 .footer {
   background: url(../images/footer-bg.jpg);
@@ -5276,6 +5257,29 @@ body {
   float: left;
   line-height: normal;
   margin: 0;
+}
+.footer .socials {
+  margin-bottom: 0;
+}
+.footer .socials a {
+  display: inline-block;
+  height: 37px;
+  width: 37px;
+}
+.footer .socials a:hover {
+  text-decoration: none;
+}
+.footer .socials a.twitter {
+  background: url(../images/twitter.png);
+}
+.footer .socials a.twitter:hover {
+  background-position: bottom;
+}
+.footer .socials a.facebook {
+  background: url(../images/facebook.png);
+}
+.footer .socials a.facebook:hover {
+  background-position: bottom;
 }
 .footer #inner-footer {
   background: url(../images/footer-shadow.png) 50% 0 repeat-x;
