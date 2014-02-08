@@ -104,7 +104,6 @@ jQuery(document).ready(function($) {
     //MOVE LOGO IMAGE AFTER THIRD ELEMENT OF NAVIGATION
     $('.nav li:nth-child(3)').after($('.brand'))
 
-    $('#menu-item-13 a').css('border-left','2px solid #fff');
 
 
     $('#carousel').rhinoslider({

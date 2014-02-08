@@ -3871,7 +3871,7 @@ input[type="submit"].btn.btn-mini {
   padding: 0 35px;
   color: #ffffff;
   text-decoration: none;
-  border-right: 2px solid #ffffff;
+  padding: 11px 17px!important;
   line-height: 10px;
 }
 .navbar .nav > li:first-child a {
@@ -3889,6 +3889,15 @@ input[type="submit"].btn.btn-mini {
   background-color: transparent;
   color: #333333;
   text-decoration: none;
+  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  padding: 11px 17px;
+  background: url(../images/menu-activ.gif) 0 -34px repeat-x;
+  border-radius: 3px;
+  color: #fff;
+  background-position: 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .navbar .nav > .active > a,
 .navbar .nav > .active > a:hover,
@@ -3899,6 +3908,12 @@ input[type="submit"].btn.btn-mini {
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  padding: 11px 17xp;
+  background: url(../images/menu-activ.gif) 0 -34px repeat-x;
+  border-radius: 3px;
+  color: #fff;
+  background-position: 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 .navbar .btn-navbar {
   display: none;
@@ -5226,7 +5241,9 @@ body {
   background: url(../images/bg-body.gif) top left repeat;
 }
 .header {
-  background: url(../images/header2.jpg);
+  background: url(../images/header-bg1.jpg);
+  background-position: left -103px;
+  padding-bottom: 20px;
 }
 .header .nav li a {
   font-family: 'Oswald', sans-serif;
@@ -5243,6 +5260,18 @@ body {
 }
 .content-wrapper .inner-content-wrapper {
   background: url(../images/shadow-header.png) top left repeat-x;
+}
+.content-wrapper .container.wrapper {
+  margin-top: 138px;
+}
+.home .header {
+  background: url(../images/header2.jpg);
+  background-position: top left;
+  padding-bottom: 0;
+}
+.home .container.wrapper {
+  padding-top: 138px;
+  margin-top: 0;
 }
 .footer {
   background: url(../images/footer-bg.jpg);
