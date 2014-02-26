@@ -19,7 +19,7 @@
 									<?php bones_footer_links(); // Adjust using Menus in Wordpress Admin ?>
 								</nav>
 
-								<p class="attribution"><?php bloginfo('name'); ?></p>
+								<p class="attribution">&copy; 2014 <?php bloginfo('name'); ?></p>
 								<p class="pull-right socials">
 									<a class="twitter" href="#">&nbsp;</a>
 									<a class="facebook" href="#">&nbsp;</a>
